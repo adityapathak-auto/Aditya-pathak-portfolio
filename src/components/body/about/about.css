@@ -1,0 +1,88 @@
+.about{
+    padding-bottom: 48px;
+    
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic1{
+    height: 420px;
+}
+.about-info{
+    
+    font-size: 24px;
+}
+.info-name{
+    font-size: 32px;
+    color: aqua;
+}
+.about-desc{
+    font-size: 15px;
+    max-width: 350px;
+    color: gray;
+}
+.download{
+    width: 20%;
+    background-color: aquamarine;
+    padding: 8px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.download:hover{
+    background-color: white;
+    border: 2px solid aquamarine;
+}
+.download a{
+    text-decoration: none;
+    color: black;
+    
+}
+.download-icon{
+    margin: 8px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+/* .typing{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap; */
+    /* animation: 
+    typing 1s steps(20, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+  .typing{
+      display: inline-block;
+  }
+@media only screen and (max-width:720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic1{
+        height: 250px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+    .download{
+        font-size: 16px;
+    }
+    
+}
